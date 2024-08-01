@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnam Gupta</title>
+    <link rel="stylesheet" href="pf.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Krishnam Gupta</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p><b>Hello! I'm Krishnam Gupta, a passionate web developer with a knack for creating dynamic and responsive web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building user-friendly websites that offer a seamless user experience.
+
+                Over the years, I've honed my skills in various web technologies and frameworks, ensuring that the projects I work on are not only functional but also aesthetically pleasing. My commitment to staying updated with the latest industry trends and best practices helps me deliver high-quality, efficient, and scalable solutions.
+                
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or learning about the latest advancements in web development. Let's connect and bring your ideas to life!</b></p>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./photo/photo.png" alt="">
+                <p>Hello! I’m Krishnam Gupta, a final-year Bachelor of Technology (B.Tech) student majoring in Computer Science and Engineering at RAYAT BAHRA UNIVERSITY. With a passion for web development and a strong foundation in computer science principles, I have honed my skills in creating responsive and user-friendly web applications.
+
+                    Throughout my academic journey, I have engaged in various projects and internships that have allowed me to apply my knowledge in real-world scenarios. I have a keen interest in front-end development, specializing in HTML5, CSS3, and JavaScript, and I am also proficient in back-end technologies such as Java, Python, and SQL databases.
+                    
+                    In addition to my technical skills, I am an enthusiastic learner who is always eager to explore new technologies and frameworks. My experience working on collaborative projects has also equipped me with strong teamwork and communication skills.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="./photo/Screenshot (3).png" alt="Project 1">
+                    <h3>News With Krishnam</h3>
+                    <p>
+                        <h2>Technologies Used :</h2>
+                       <h4> HTML: For structuring the content of the web app.</h4>
+                       <h4> CSS: For styling and layout, ensuring the app is visually appealing and responsive.</h4>
+                       <h4>JavaScript: For adding interactivity, fetching data from the API, and dynamically updating the UI.</h4>
+                    </p>
+                    <a href="https://krishnamgupta24.github.io/krishnamAjax/" class="project-link">Live Demo</a>
+                    <a href="https://github.com/KrishnamGupta24" class="project-link">GitHub</a>
+                </div>
+                <!-- More project cards -->
+            </div>
+        </div>
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-title">HTML5</div>
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-title">CSS3</div>
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-title">JavaScript</div>
+                        <div class="skill-level" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-title">Java</div>
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-title">Python</div>
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-title">SQL Database</div>
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="map"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Krishnam. All rights reserved.</p>
+            <div class="social-links">
+                <a href="http://www.linkedin.com/in/krishnamgupta40">LinkedIn</a>
+            </div>
+            <button id="back-to-top">Back to Top</button>
+        </div>
+    </footer>
+
+    <script src="pf.js"></script>
+</body>
+</html>
